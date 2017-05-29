@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WSProgressHUD.h"
+#import <AFNetworking.h>
+
 
 @interface ViewController : UIViewController
-
+{
+    __weak IBOutlet UIImageView *imgView;
+    
+}
+- (IBAction)getDataAction:(id)sender;
+- (IBAction)imageAction:(id)sender;
 
 @end
 
