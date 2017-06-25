@@ -31,6 +31,8 @@
 
 -(void)initWithTimerValue
 {
+    [timer invalidate];
+    timer = nil;
     timer =[NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(updateAnimationValue) userInfo:nil repeats:YES];
 }
 
