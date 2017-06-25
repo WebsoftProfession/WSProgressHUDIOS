@@ -2,8 +2,8 @@
 //  ViewController.m
 //  WSProgressHUDStyle1
 //
-//  Created by Dotsquares on 4/17/17.
-//  Copyright © 2017 WebsoftProfession. All rights reserved.
+//  Created by WebsoftProfession on 4/17/17.
+//  WebsoftProfession
 //
 
 #import "ViewController.h"
